@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Intro_Programming_Ruby"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"solargraph.autoformat": true
+	}
+}
