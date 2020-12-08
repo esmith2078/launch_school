@@ -1,5 +1,5 @@
 # loan_calculator.rb
-# testing third time
+# testing final time
 
 def valid_number?(num)
   num.to_i != 0
