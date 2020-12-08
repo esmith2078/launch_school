@@ -1,5 +1,5 @@
 # loan_calculator.rb
-#testing
+#testing again
 
 def valid_number?(num)
   num.to_i != 0
