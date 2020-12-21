@@ -1,0 +1,17 @@
+# medium1_q8.rb
+
+def rps(fist1, fist2)
+  if fist1 == "rock"
+    (fist2 == "paper") ? "paper" : "rock"
+  elsif fist1 == "paper"
+    (fist2 == "scissors") ? "scissors" : "paper"
+  else
+    (fist2 == "rock") ? "rock" : "scissors"
+  end
+end
+
+puts rps(rps(rps("rock", "paper"), rps("rock", "scissors")), "rock")
+
+# Paper is the winner...inner most calls have paper beating rock, rock beating
+#   scissors, and then paper beating rock; leaving paper to beat rock
+#   in the outer call.
