@@ -63,7 +63,7 @@ loop do
 
   player_score = win_total(choice, computer_choice)
   computer_score = win_total(choice, computer_choice)
-  #prompt("Player wins: #{player_score}; Computer wins: #{computer_score}")
+  # prompt("Player wins: #{player_score}; Computer wins: #{computer_score}")
 
   prompt('Do you want to play again? Y or N')
   answer = gets.chomp
